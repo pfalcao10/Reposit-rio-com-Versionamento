@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69BB4A66-52C7-84AB-A42A-FDEC9622E7B9" name="Itens_Pedido">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ipd</preferredAbbreviation>
+<shortName>Itens_Pedido</shortName>
+<synonym>Itens_Pedido</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_item" id="E2ACE96D-48CF-EE49-DFA0-EC95E4CA78DC">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:42:24 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pedido" id="6DFCCD73-D72D-5F95-AD56-A4440DF17DF2">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:42:57 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_produto" id="80209E69-BD34-04FD-F1BF-7B37CB2BC28D">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:43:51 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="C380917E-3E31-330C-93C4-9AF135DB2912">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:44:11 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco_unitario" id="79CA8024-93D0-BB62-2910-4E3CFF43A199">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:44:42 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pedido1" id="F60527B8-C91D-F01B-4AFA-5209D48DAD65">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:25 UTC</createdTime>
+<generatorID>279F87A8-03AF-6B66-9446-B98F202AEFFF</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<referedAttribute>77292B13-B813-D92A-4D1B-990257BDD0C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D36C9C6-8D87-EBB6-1D79-EC60458856B0" name="Itens_Pedido PK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:42:39 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2ACE96D-48CF-EE49-DFA0-EC95E4CA78DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F35F191-F093-2954-93FD-5B39A43020BE" name="Alimentacao">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-04 00:27:43 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>alm</preferredAbbreviation>
+<shortName>Alimentacao</shortName>
+<synonym>Alimentacao</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dieta" id="7C525B9B-D793-7E6E-EE8B-10342B8402BF">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-04 00:28:40 UTC</createdTime>
+<comment><![CDATA[Essa é uma pergunta para saber se você faz dieta]]></comment>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="proteinas" id="49EBB5F7-F4E4-F4E1-8B10-B00C587D85F8">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-04 00:29:19 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="carboidratos" id="77788D83-4F9D-D64E-8563-DBDAD49DF758">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-04 00:30:42 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LegumesVerduras" id="1BD98F9B-8275-EB81-166D-C89852DD8A0C">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-04 00:31:23 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="frutas" id="1EB4E117-0015-C896-1AAA-9D651DF48A28">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-04 00:32:05 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gorduras" id="176AFB07-2415-0822-B6E7-AB9E39595465">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-04 00:32:21 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

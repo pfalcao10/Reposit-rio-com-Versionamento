@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ClientePedidos" directorySegmentName="seg_0" id="259EE2D5-3395-6282-F285-AEF7BAD31379">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:46:30 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<sourcePk>2B8A0EEB-8406-3930-5E62-04E740F42C03</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2ACEACAF-AE42-FDB9-0FB2-AEA177D82DAD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AEE6F0E2-26C4-06CA-3C65-2028DF4494D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

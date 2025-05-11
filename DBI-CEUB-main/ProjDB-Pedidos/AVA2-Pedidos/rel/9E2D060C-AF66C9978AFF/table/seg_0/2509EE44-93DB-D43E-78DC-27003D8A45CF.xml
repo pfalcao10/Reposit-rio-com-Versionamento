@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2509EE44-93DB-D43E-78DC-27003D8A45CF" name="pds">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>AEE6F0E2-26C4-06CA-3C65-2028DF4494D2</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<abbreviation>Pedidos</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pedido" id="3C9EBE97-4485-9473-5432-216CF3F23A35">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>77292B13-B813-D92A-4D1B-990257BDD0C2</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_hora" id="0BB9FC2F-65A2-00CF-35C8-69243AE9AD22">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>F1B7B4EE-5D13-285D-695A-95CE746670CA</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_vendedor" id="CFD38F76-0369-D892-1FCB-A5C6EC741C9B">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>94B25293-37C1-A1A6-1C74-3B25120FAA43</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cliente" id="DA425C79-A746-3E0D-C8AC-406BA2CB5F76">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>F5C0204A-8547-E8A3-FE5B-F2E414696E31</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_total" id="F22AD590-F84C-3DED-EF4C-389C5488BF80">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>9B571598-5F76-4111-CD58-6163438109BF</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desconto_percentual" id="30B37969-8085-D5CA-5DB2-4D2A2CBE60EC">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>DEB221A0-ACE6-420E-971D-43D917104259</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clt_id_cliente" id="F3B23099-5A39-C0A1-8901-B4BC222D3E5F">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>A1D9143C-E7E9-BC9D-5788-DAB9F64D72DD</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A634871-070A-C92A-6796-264200589298" referredColumn="3F1DFA38-F864-AD26-374F-BEB09F3090D6"/>
+</associations>
+</Column>
+<Column name="vdr_id_vendedor" id="183F0A43-C11E-40EC-4028-C50E1B263897">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>340682AB-7AD0-6F7E-525F-C0DF5904D848</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59D35B96-2973-2AB1-2CEB-D032B3B88A3F" referredColumn="17BEB7A1-280D-F754-488B-7C8351CF81F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7CE5408-EFF3-338A-7A08-B2A60465FDA5" name="pds_PK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>6A6DF291-258F-2261-6D20-9DF76C82BEF9</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C9EBE97-4485-9473-5432-216CF3F23A35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="378B3DD2-429B-788B-3634-C58CF3C76561" name="pds_clt_FK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>259EE2D5-3395-6282-F285-AEF7BAD31379</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3B23099-5A39-C0A1-8901-B4BC222D3E5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="608E142A-4C53-6EE4-F815-C2A05FE8AA1B" name="pds_vdr_FK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>A1D4DD80-5D3F-AB2B-7BA1-95B26B23DA2D</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="183F0A43-C11E-40EC-4028-C50E1B263897"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

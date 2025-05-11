@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA65A472-2BE0-6110-B969-20F8FE5947D2" name="Imc">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:20:46 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>imc</preferredAbbreviation>
+<shortName>imc</shortName>
+<synonym>imc</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="abaixoPeso" id="4E2EC246-D0BF-024B-CE7C-61B651CB06E8">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:21:39 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoAdequado" id="D12BA873-5143-C053-4C35-1C568686365A">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:22:37 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrePeso" id="0E803EF6-A884-434E-7636-F5EEAEBC558B">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:23:35 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obesidadeGrau1" id="8B56552B-37FF-E316-D4F6-6AB51CD53E78">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:24:34 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obesidadeGrau2" id="9E3681B9-12B7-5E28-9730-515E242F9443">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:24:57 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obesidadeGrau3" id="26870F01-FCFB-7624-306D-4FE9CCDE3B44">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:25:38 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

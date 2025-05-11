@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4BF0DC09-318E-6186-9721-4DF1BDB7F491" name="Cliente">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:03:25 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>clt</preferredAbbreviation>
+<shortName>cliente</shortName>
+<synonym>cliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idade" id="8628517E-F6D5-0E87-B558-D9651B86BF4F">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:06:38 UTC</createdTime>
+<comment><![CDATA[Menor de 18, por favor vim acompanhando do seu responsável]]></comment>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="DD801A84-57B1-EE42-BBE0-B4B18FD26555">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:07:06 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="71F75B16-697A-B3A6-29DC-D56F7E68C6A8">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:09:13 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="25E48A56-5615-F559-AF56-8DEDFF3A30DC">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:06:00 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pcd" id="D3B75171-1F6D-E2BA-9B6C-F778171263E3">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:11:47 UTC</createdTime>
+<comment><![CDATA[Essa é uma pergunta se você tem algum tipo de deficiência ou não.]]></comment>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fuma" id="97CC5B2A-E1C0-290D-B281-AF83C8664AAE">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:19:36 UTC</createdTime>
+<comment><![CDATA[Essa é uma pergunta se você fuma ou não.]]></comment>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horarioTreino" id="D7C6BB80-A7C9-F139-26B6-FE95A535A1FC">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-04 00:23:36 UTC</createdTime>
+<comment><![CDATA[Coloque o melhor turno para vc treinar]]></comment>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

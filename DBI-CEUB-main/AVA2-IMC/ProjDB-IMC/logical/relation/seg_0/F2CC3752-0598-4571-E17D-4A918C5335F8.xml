@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ImcAlimentacao" directorySegmentName="seg_0" id="F2CC3752-0598-4571-E17D-4A918C5335F8">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-04 00:32:53 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AA65A472-2BE0-6110-B969-20F8FE5947D2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7F35F191-F093-2954-93FD-5B39A43020BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

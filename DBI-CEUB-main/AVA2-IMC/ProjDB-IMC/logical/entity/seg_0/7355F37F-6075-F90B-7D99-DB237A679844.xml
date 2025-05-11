@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7355F37F-6075-F90B-7D99-DB237A679844" name="ProblemaSaude">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:26:13 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>pbs</preferredAbbreviation>
+<shortName>problemaSaude</shortName>
+<synonym>problemaSaude</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="diabetes" id="73BBBFFD-4280-C6BF-E404-4FB7888ABD5C">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:27:23 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estiramentosMusculares" id="1DD18DB7-6C39-5D3D-25FC-6B133BA42AD5">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:29:25 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lombalgiaDoresColuna" id="6CC644A8-CFAA-54AA-CD77-76E9879A5FD5">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:29:35 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="herniaDisco" id="DED9623E-5117-9CF0-AB2E-C34C4416FF6A">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:29:39 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="autismo" id="79A40509-7F65-90C6-E4E6-C3D26FF98603">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:29:41 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sindromeDown" id="C9E141E4-9752-AD00-348B-43F2868629DE">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 23:29:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

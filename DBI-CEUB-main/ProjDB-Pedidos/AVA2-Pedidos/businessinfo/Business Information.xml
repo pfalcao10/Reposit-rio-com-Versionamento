@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B469D5EC-3980-E155-73C4-7A5EC01B708E">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-08 23:50:05 UTC</createdTime>
+<ownerDesignName>ProjDB-PEDIDOS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

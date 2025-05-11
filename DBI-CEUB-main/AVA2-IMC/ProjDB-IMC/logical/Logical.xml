@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6AA7BC6B-CE09-8C8D-8CB6-A160873E47F6" mainViewID="954A4D2F-B576-3EBC-3ABF-D11856108C5F">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-03 22:15:09 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

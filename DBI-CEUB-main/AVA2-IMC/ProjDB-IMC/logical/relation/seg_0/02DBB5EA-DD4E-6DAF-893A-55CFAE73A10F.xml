@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AlimentacaoProblemasSaude" directorySegmentName="seg_0" id="02DBB5EA-DD4E-6DAF-893A-55CFAE73A10F">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-04-04 00:33:15 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B2F6C5CE-D60E-C5CA-C4EC-2A23C1CEBAAD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7F35F191-F093-2954-93FD-5B39A43020BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7355F37F-6075-F90B-7D99-DB237A679844</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

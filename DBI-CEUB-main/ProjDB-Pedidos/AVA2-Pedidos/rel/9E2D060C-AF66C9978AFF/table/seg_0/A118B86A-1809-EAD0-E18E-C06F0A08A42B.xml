@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A118B86A-1809-EAD0-E18E-C06F0A08A42B" name="vdr">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>F42FCF64-9D90-7BAC-56ED-BF310F6AC536</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<abbreviation>Vendedores</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vendedor" id="17BEB7A1-280D-F754-488B-7C8351CF81F5">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>B82FB392-5E90-4589-955E-45234B18AE38</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="90716FE3-67FC-B154-C80E-7CE23FCFAA5B">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>F0C885BE-42D6-9548-C1E2-742ADA2CE684</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="B2F9ABE8-7CBD-6AB3-88B1-10E70406B10E">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>4F067AC6-ADDC-E366-A061-3D203AB3C697</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE1F545D-6502-78C1-828D-1AE8880AFFCC" name="vdr_PK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>6B5D472A-2974-6F07-B608-A219C06DBFA7</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17BEB7A1-280D-F754-488B-7C8351CF81F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

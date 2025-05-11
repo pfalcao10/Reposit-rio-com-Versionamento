@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45F00789-398C-338F-AAE7-515F368A61EF" name="ipd">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>69BB4A66-52C7-84AB-A42A-FDEC9622E7B9</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<abbreviation>Itens_Pedido</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_item" id="DE3654B8-B403-B3B6-D758-3A82DD459B08">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>E2ACE96D-48CF-EE49-DFA0-EC95E4CA78DC</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pedido" id="A5283258-E53E-91BA-27DE-FB5E5D7B5B63">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>6DFCCD73-D72D-5F95-AD56-A4440DF17DF2</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_produto" id="67AF9C6A-B149-1E29-1AF5-C803A6B380A7">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>80209E69-BD34-04FD-F1BF-7B37CB2BC28D</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="90C43227-ED3A-ED41-CDB5-112F3248DA9C">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>C380917E-3E31-330C-93C4-9AF135DB2912</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco_unitario" id="DEA8C3C8-A676-7C2C-D9F6-E99176527542">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>79CA8024-93D0-BB62-2910-4E3CFF43A199</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pds_id_pedido" id="6CF06B83-787D-57EA-3C2E-FBED374F6448">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>F60527B8-C91D-F01B-4AFA-5209D48DAD65</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38D78116-C92C-7C68-B2A6-28D3CFFE4DDA" referredColumn="3C9EBE97-4485-9473-5432-216CF3F23A35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7528C6A-7B9D-569F-C690-EE11BF7BCC03" name="ipd_PK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>0D36C9C6-8D87-EBB6-1D79-EC60458856B0</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE3654B8-B403-B3B6-D758-3A82DD459B08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A5B3296-5A75-A13B-ABD7-FACBD94A0D55" name="ipd_pds_FK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>279F87A8-03AF-6B66-9446-B98F202AEFFF</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CF06B83-787D-57EA-3C2E-FBED374F6448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

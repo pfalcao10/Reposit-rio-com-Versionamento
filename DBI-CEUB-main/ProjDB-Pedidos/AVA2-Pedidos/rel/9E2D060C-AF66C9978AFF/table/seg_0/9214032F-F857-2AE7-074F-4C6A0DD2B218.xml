@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9214032F-F857-2AE7-074F-4C6A0DD2B218" name="clt">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:45 UTC</createdTime>
+<generatorID>2ACEACAF-AE42-FDB9-0FB2-AEA177D82DAD</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<abbreviation>Cliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="3F1DFA38-F864-AD26-374F-BEB09F3090D6">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:45 UTC</createdTime>
+<generatorID>063B090B-CE25-80F0-198F-E867E0FD96A3</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="F461B273-9CC3-5AAB-9413-B0322FEDC0B2">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:45 UTC</createdTime>
+<generatorID>83CAA70A-DEA2-CD53-ABA6-0CCBEBE7F81D</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="0C6AB783-CDBA-0E65-D3E3-28FAC2FBD75E">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:45 UTC</createdTime>
+<generatorID>859E9400-7622-3197-9867-5F3B71164B4C</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="81414437-F5FA-B3B3-B18D-8A0C855FE6DF">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:45 UTC</createdTime>
+<generatorID>01995740-AC00-5647-6AF5-4E07FF838066</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="40230465-3D7C-D358-994A-8C6053A1A6E2">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:45 UTC</createdTime>
+<generatorID>CEA504F9-A21D-3829-D3E5-30F26874DDB6</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18FD8B6B-2962-F68C-5AD4-A8379B7F2F45" name="clt_PK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:45 UTC</createdTime>
+<generatorID>2B8A0EEB-8406-3930-5E62-04E740F42C03</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F1DFA38-F864-AD26-374F-BEB09F3090D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

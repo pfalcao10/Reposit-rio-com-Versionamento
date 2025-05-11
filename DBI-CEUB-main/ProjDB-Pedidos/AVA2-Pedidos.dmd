@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AVA2-Pedidos" id="DE7E4811-C2C1-7043-D1A3-B58A7DD4EE92" version="3.5">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-08 23:50:05 UTC</createdTime>
+<ownerDesignName>ProjDB-PEDIDOS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DE7E4811-C2C1-7043-D1A3-B58A7DD4EE92</designId>
+</OSDM_Design>

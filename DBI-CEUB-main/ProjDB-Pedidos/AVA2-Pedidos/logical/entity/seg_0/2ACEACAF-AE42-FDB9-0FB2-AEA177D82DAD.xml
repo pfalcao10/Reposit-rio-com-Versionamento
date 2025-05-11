@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2ACEACAF-AE42-FDB9-0FB2-AEA177D82DAD" name="Cliente">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:30:28 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>clt</preferredAbbreviation>
+<shortName>Cliente</shortName>
+<synonym>Cliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="063B090B-CE25-80F0-198F-E867E0FD96A3">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:30:46 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="83CAA70A-DEA2-CD53-ABA6-0CCBEBE7F81D">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:32:28 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="859E9400-7622-3197-9867-5F3B71164B4C">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:33:01 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="01995740-AC00-5647-6AF5-4E07FF838066">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:33:26 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="CEA504F9-A21D-3829-D3E5-30F26874DDB6">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:34:39 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B8A0EEB-8406-3930-5E62-04E740F42C03" name="Cliente PK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:32:17 UTC</createdTime>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9E2D060C-874A-9A4C-948B-AF66C9978AFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>063B090B-CE25-80F0-198F-E867E0FD96A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

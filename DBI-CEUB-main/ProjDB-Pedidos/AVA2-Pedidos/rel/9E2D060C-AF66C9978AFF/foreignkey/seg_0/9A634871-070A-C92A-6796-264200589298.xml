@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A634871-070A-C92A-6796-264200589298" containerWithKeyObject="2509EE44-93DB-D43E-78DC-27003D8A45CF" localFKIndex="378B3DD2-429B-788B-3634-C58CF3C76561" name="pds_clt_FK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-09 00:47:46 UTC</createdTime>
+<generatorID>259EE2D5-3395-6282-F285-AEF7BAD31379</generatorID>
+<ownerDesignName>AVA2-Pedidos</ownerDesignName>
+<referredTableLongName>clt</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9214032F-F857-2AE7-074F-4C6A0DD2B218</referredTableID>
+<keyObject>18FD8B6B-2962-F68C-5AD4-A8379B7F2F45</keyObject>
+<referredKeyID>18FD8B6B-2962-F68C-5AD4-A8379B7F2F45</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
