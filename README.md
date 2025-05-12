@@ -1,2 +1,4 @@
 # Repositório com Versionamento
- Projetos Acadêmicos
+ DBI CEUB / Projetos Acadêmicos
+Projetos Pessoais
+Documentação
