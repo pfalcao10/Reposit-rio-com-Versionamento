@@ -1,0 +1,28 @@
+def exibir_mensagem_e_numero(mensagem, numero):
+    print(f"Mensagem: {mensagem}")
+    print(f"Número: {numero}")
+
+def calcular_idade(ano_nascimento):
+    ano_atual = 2025
+    return ano_atual - ano_nascimento
+
+def somar_tres_valores(valor1, valor2, valor3):
+    return valor1 + valor2 + valor3
+
+def main():
+    mensagem = input("Digite uma mensagem: ")
+    numero = int(input("Digite um número: "))
+    exibir_mensagem_e_numero(mensagem, numero)
+
+    ano_nascimento = int(input("Digite seu ano de nascimento: "))
+    idade = calcular_idade(ano_nascimento)
+    print(f"Sua idade é: {idade} anos")
+
+    valor1 = int(input("Digite o primeiro valor: "))
+    valor2 = int(input("Digite o segundo valor: "))
+    valor3 = int(input("Digite o terceiro valor: "))
+    resultado_soma = somar_tres_valores(valor1, valor2, valor3)
+    print(f"A soma dos três valores é: {resultado_soma}")
+
+if __name__ == "__main__":
+    main()
